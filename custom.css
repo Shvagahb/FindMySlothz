@@ -2,7 +2,7 @@
 height: 285px;
 width: 400px;
 float:right;
-margin-top: -312px;
+margin-bottom: 305px;
 }
 
 .controls {
@@ -48,3 +48,24 @@ margin-top: -312px;
         font-size: 13px;
         font-weight: 300;
       }
+      
+      @media (min-width:500px) {
+          #map-canvas {
+
+          }
+
+          .blurb {
+
+          }
+        }
+      
+      @media (max-width:499px) {
+        #map-canvas {
+
+        }
+
+        .blurb {
+
+        }
+      }
+
