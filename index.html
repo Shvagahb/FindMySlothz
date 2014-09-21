@@ -45,8 +45,8 @@ function initialize() {
   });
 
   var defaultBounds = new google.maps.LatLngBounds(
-      new google.maps.LatLng(33.734105, -84.37228),
-      new google.maps.LatLng(33.734105, -84.37228)
+      new google.maps.LatLng(33.734105, -84.372260),
+      new google.maps.LatLng(33.734105, -84.372260)
      );
   map.fitBounds(defaultBounds);
 /*function success(position) {
@@ -59,7 +59,7 @@ function initialize() {
 
   var coords = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
   
- */ var options = {
+  var options = {
     zoom: 9,
     center: coords,
     mapTypeControl: false,
@@ -67,7 +67,7 @@ function initialize() {
     	style: google.maps.NavigationControlStyle.SMALL
     },
     mapTypeId: google.maps.MapTypeId.ROADMAP
-  };/*
+  };
   var map = new google.maps.Map(document.getElementById("mapcontainer"), options);
 
   var marker = new google.maps.Marker({
